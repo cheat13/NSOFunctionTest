@@ -1,0 +1,128 @@
+{
+    "_id": "com1v155826647584650500992",
+    "ea": "35016011076007",
+    "management": {
+        "vil": "13",
+        "vil_name": "บ้านโป่ง",
+        "hasPublicWater": true,
+        "publicWaterCount": "3",
+        "pwa": true,
+        "mwa": false,
+        "otherPlumbing": true,
+        "hasWaterService": true,
+        "waterServiceCount": "1",
+        "hasWaterTreatment": false,
+        "hasDisaster": false,
+        "disasters": {
+            "tsunami": false,
+            "landSlide": false,
+            "earthquake": false,
+            "cyclone": false,
+            "forestFire": false,
+            "drought": false,
+            "cold": false,
+            "epidemic": false,
+            "pest": false,
+            "epizootics": false
+        },
+        "hasDisasterWarning": false,
+        "disasterWarningMethods": {
+            "governmentProcess": false,
+            "communityPlan": false,
+            "consultingService": false,
+            "hasOther": false,
+            "other": null
+        },
+        "details": [
+            {
+                "name": "อ่างห้วนริน (ข้างวัดบ้านโป่ง)",
+                "useForPlumbing": false,
+                "useForFactory": false,
+                "useForFarming": false,
+                "useForService": true,
+                "useForOther": false,
+                "other": null,
+                "projectArea": {
+                    "shape": "2",
+                    "area": {
+                        "rai": 0,
+                        "ngan": 0,
+                        "sqWa": 0
+                    },
+                    "depth": "3",
+                    "rectangle": {
+                        "width": "15",
+                        "length": "30"
+                    },
+                    "diameter": null
+                }
+            },
+            {
+                "name": "อ่างห้วยริน (บนหมู่บ้าน)",
+                "useForPlumbing": true,
+                "useForFactory": false,
+                "useForFarming": false,
+                "useForService": true,
+                "useForOther": false,
+                "other": null,
+                "projectArea": {
+                    "shape": "2",
+                    "area": {
+                        "rai": 0,
+                        "ngan": 0,
+                        "sqWa": 0
+                    },
+                    "depth": "4",
+                    "rectangle": {
+                        "width": "20",
+                        "length": "40"
+                    },
+                    "diameter": null
+                }
+            },
+            {
+                "name": "อ่างห้วยริน (บนดอย)",
+                "useForPlumbing": false,
+                "useForFactory": false,
+                "useForFarming": true,
+                "useForService": true,
+                "useForOther": false,
+                "other": null,
+                "projectArea": {
+                    "shape": "2",
+                    "area": {
+                        "rai": 0,
+                        "ngan": 0,
+                        "sqWa": 0
+                    },
+                    "depth": "4",
+                    "rectangle": {
+                        "width": "22",
+                        "length": "38"
+                    },
+                    "diameter": null
+                }
+            }
+        ],
+        "waterServices": [
+            {
+                "name": "ประชาหมู่บ้านโป่ง หมู่ 13",
+                "hasSurfaceWater": true,
+                "surfaceWaterPerMonth": "20000",
+                "useGroundWater": false,
+                "groundWaterCount": null,
+                "groundWaterUsePerMonth": null,
+                "plumbingPrice": "6",
+                "meterRentalFee": "0",
+                "disinfection": 1,
+                "otherDisinfection": null
+            }
+        ]
+    },
+    "communityProject": {
+        "doing": false,
+        "projectCount": 0,
+        "details": []
+    },
+    "status": "done-all"
+}

@@ -1,0 +1,60 @@
+{
+    "ea": "11006081000035",
+    "ordering": 0,
+    "road": "รามคำแหง",
+    "alley": "ซอย37/1",
+    "name": "_",
+    "houseNo": "2097/25",
+    "latitude": 13.7580587,
+    "longitude": 100.6146266,
+    "buildingType": 3,
+    "other": null,
+    "accessCount": 1,
+    "access": null,
+    "vacancyCount": null,
+    "abandonedCount": null,
+    "recCtrl": {
+        "createdDateTime": "2019-05-17T09:16:15.836Z",
+        "lastModified": "2019-05-17T09:16:39.341Z",
+        "deletedDateTime": null,
+        "lastUpload": null,
+        "lastDownload": null,
+        "logCount": 3,
+        "logs": [
+            {
+                "at": "2019-05-17T09:16:15.836Z",
+                "operationCode": "create"
+            },
+            {
+                "at": "2019-05-17T09:16:29.193Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-17T09:16:39.341Z",
+                "operationCode": "continue"
+            }
+        ]
+    },
+    "vacantRoomCount": null,
+    "unitCountComplete": 0,
+    "unitCount": "1",
+    "unitAccess": 0,
+    "occupiedRoomCount": null,
+    "waterQuantity": {
+        "waterQuantity": 0,
+        "cubicMeterPerMonth": null,
+        "waterBill": null
+    },
+    "floorCount": null,
+    "_id": "bld1v155808457583210501508",
+    "status": "pause",
+    "accesses": [
+        1
+    ],
+    "comments": [
+        {
+            "at": 1558084589181,
+            "text": ""
+        }
+    ]
+}
