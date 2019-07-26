@@ -10,23 +10,38 @@ namespace NSOFunctionTest
         {
             new object[] {
                 SurveyData.Data1,
-                new AgricultureModel(),
+                new AgricultureModel{
+                    IsAgriculture = 0,
+                    IsAgricultureHasIrrigationField = 0
+                },
             },
             new object[] {
                 SurveyData.Data2,
-                new AgricultureModel(),
+                new AgricultureModel{
+                    IsAgriculture = 0,
+                    IsAgricultureHasIrrigationField = 0
+                },
             },
             new object[] {
                 SurveyData.Data3,
-                new AgricultureModel(),
+                new AgricultureModel{
+                    IsAgriculture = 0,
+                    IsAgricultureHasIrrigationField = 0
+                },
             },
             new object[] {
                 SurveyData.Data4,
-                new AgricultureModel(),
+                new AgricultureModel{
+                    IsAgriculture = 0,
+                    IsAgricultureHasIrrigationField = 0
+                },
             },
             new object[] {
                 SurveyData.Data5,
-                new AgricultureModel(),
+                new AgricultureModel{
+                    IsAgriculture = 1,
+                    IsAgricultureHasIrrigationField = 0
+                },
             },
         };
         public static IEnumerable<object[]> IsHouseHoldGoodPlumbing = new List<object[]>
