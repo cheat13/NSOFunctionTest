@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using NSOFunction.Models;
 
 namespace NSOFunctionTest
 {
@@ -9,23 +10,23 @@ namespace NSOFunctionTest
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                new AgricultureModel(),
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                new AgricultureModel(),
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                new AgricultureModel(),
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                new AgricultureModel(),
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                new AgricultureModel(),
             },
         };
         public static IEnumerable<object[]> IsHouseHoldGoodPlumbing = new List<object[]>
