@@ -36,7 +36,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest1.IsFactorialWaterQuality))]
-        public void TestIsFactorialWaterQuality(Survey survey, string expect)
+        public void TestIsFactorialWaterQuality(Survey survey, int expect)
         {
             var sut = new BaseFunction();
             var result = sut.IsFactorialWaterQuality(survey.Unit);
@@ -45,7 +45,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest1.IsCommercialWaterQuality))]
-        public void TestIsCommercialWaterQuality(Survey survey, string expect)
+        public void TestIsCommercialWaterQuality(Survey survey, int expect)
         {
             var sut = new BaseFunction();
             var result = sut.IsCommercialWaterQuality(survey.Unit);
@@ -54,7 +54,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest1.IsFactorial))]
-        public void TestIsFactorial(Survey survey, string expect)
+        public void TestIsFactorial(Survey survey, int expect)
         {
             var sut = new BaseFunction();
             var result = sut.IsFactorial(survey.Unit);
@@ -63,7 +63,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest1.IsFactorialWaterTreatment))]
-        public void TestIsFactorialWaterTreatment(Survey survey, string expect)
+        public void TestIsFactorialWaterTreatment(Survey survey, int expect)
         {
             var sut = new BaseFunction();
             var result = sut.IsFactorialWaterTreatment(survey.Unit);
@@ -72,7 +72,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest1.CountGroundWaterHouseHold))]
-        public void TestCountGroundWaterHouseHold(Survey survey, string expect)
+        public void TestCountGroundWaterHouseHold(Survey survey, int expect)
         {
             var sut = new BaseFunction();
             var result = sut.CountGroundWaterHouseHold(survey.Unit);
@@ -99,7 +99,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest1.HasntPlumbing))]
-        public void TestHasntPlumbing(Survey survey, string expect)
+        public void TestHasntPlumbing(Survey survey, int expect)
         {
             var sut = new BaseFunction();
             var result = sut.HasntPlumbing(survey.Unit);
@@ -117,7 +117,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest1.WaterSourcesHouseHold))]
-        public void TestWaterSourcesHouseHold(Survey survey, string expect)
+        public void TestWaterSourcesHouseHold(Survey survey, double expect)
         {
             var sut = new BaseFunction();
             var result = sut.WaterSourcesHouseHold(survey.Unit);
@@ -126,7 +126,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest1.IndustryHasWasteWaterTreatment))]
-        public void TestIndustryHasWasteWaterTreatment(Survey survey, string expect)
+        public void TestIndustryHasWasteWaterTreatment(Survey survey, int expect)
         {
             var sut = new BaseFunction();
             var result = sut.IndustryHasWasteWaterTreatment(survey.Unit);
@@ -135,7 +135,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest1.PeopleInFloodedArea))]
-        public void TestPeopleInFloodedArea(Survey survey, string expect)
+        public void TestPeopleInFloodedArea(Survey survey, int expect)
         {
             var sut = new BaseFunction();
             var result = sut.PeopleInFloodedArea(survey.Unit);
@@ -156,7 +156,7 @@ namespace NSOFunctionTest
         public void TestCubicMeterPlumbing(Survey survey, string expect)
         {
             var sut = new BaseFunction();
-            var result = sut.CubicMeterPlumbing(survey.Unit);
+            var result = sut.CubicMeterPlumbing(survey.Unit, survey.Building, survey.Communities);
             result.Should().BeEquivalentTo(expect);
         }
 
@@ -175,7 +175,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest2.IsCommunityWaterManagementHasWaterTreatment))]
-        public void TestIsCommunityWaterManagementHasWaterTreatment(CommunitySample com, string expect)
+        public void TestIsCommunityWaterManagementHasWaterTreatment(CommunitySample com, int expect)
         {
             var sut = new BaseFunction();
             var result = sut.IsCommunityWaterManagementHasWaterTreatment(com);
@@ -184,7 +184,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest2.CountGroundWaterCommunity))]
-        public void TestCountGroundWaterCommunity(CommunitySample com, string expect)
+        public void TestCountGroundWaterCommunity(CommunitySample com, double expect)
         {
             var sut = new BaseFunction();
             var result = sut.CountGroundWaterCommunity(com);
@@ -193,7 +193,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest2.FieldCommunity))]
-        public void TestFieldCommunity(CommunitySample com, string expect)
+        public void TestFieldCommunity(CommunitySample com, double expect)
         {
             var sut = new BaseFunction();
             var result = sut.FieldCommunity(com);
@@ -202,7 +202,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest2.CommunityNatureDisaster))]
-        public void TestCommunityNatureDisaster(CommunitySample com, string expect)
+        public void TestCommunityNatureDisaster(CommunitySample com, int expect)
         {
             var sut = new BaseFunction();
             var result = sut.CommunityNatureDisaster(com);
@@ -229,7 +229,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest2.CubicMeterSurfaceForAgriculture))]
-        public void TestCubicMeterSurfaceForAgriculture(CommunitySample com, string expect)
+        public void TestCubicMeterSurfaceForAgriculture(CommunitySample com, double expect)
         {
             var sut = new BaseFunction();
             var result = sut.CubicMeterSurfaceForAgriculture(com);
@@ -238,7 +238,7 @@ namespace NSOFunctionTest
 
         [Theory]
         [MemberData(nameof(DataForTest2.CubicMeterSurfaceForDrink))]
-        public void TestCubicMeterSurfaceForDrink(CommunitySample com, string expect)
+        public void TestCubicMeterSurfaceForDrink(CommunitySample com, double expect)
         {
             var sut = new BaseFunction();
             var result = sut.CubicMeterSurfaceForDrink(com);
