@@ -1,0 +1,45 @@
+{
+    "_id": "com1v155791921690250500992",
+    "ea": "35016011076007",
+    "management": {
+        "vil": "9",
+        "vil_name": "บ้านห้วยส้มป่อย",
+        "hasPublicWater": false,
+        "publicWaterCount": 0,
+        "pwa": true,
+        "mwa": false,
+        "otherPlumbing": false,
+        "hasWaterService": null,
+        "waterServiceCount": null,
+        "hasWaterTreatment": false,
+        "hasDisaster": false,
+        "disasters": {
+            "tsunami": false,
+            "landSlide": false,
+            "earthquake": false,
+            "cyclone": false,
+            "forestFire": false,
+            "drought": false,
+            "cold": false,
+            "epidemic": false,
+            "pest": false,
+            "epizootics": false
+        },
+        "hasDisasterWarning": true,
+        "disasterWarningMethods": {
+            "governmentProcess": true,
+            "communityPlan": false,
+            "consultingService": false,
+            "hasOther": false,
+            "other": null
+        },
+        "details": [],
+        "waterServices": []
+    },
+    "communityProject": {
+        "doing": false,
+        "projectCount": 0,
+        "details": []
+    },
+    "status": "done-all"
+}

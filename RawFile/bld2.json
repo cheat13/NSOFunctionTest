@@ -1,0 +1,64 @@
+{
+    "ea": "11003011000001",
+    "ordering": 0,
+    "road": "เลียบวารี",
+    "alley": "18",
+    "name": "-",
+    "houseNo": "19",
+    "latitude": 13.8566149,
+    "longitude": 100.849594,
+    "buildingType": 2,
+    "other": null,
+    "accessCount": 1,
+    "access": null,
+    "vacancyCount": null,
+    "abandonedCount": null,
+    "recCtrl": {
+        "createdDateTime": "2019-05-17T05:02:36.139Z",
+        "lastModified": "2019-05-18T14:50:24.579Z",
+        "deletedDateTime": null,
+        "lastUpload": null,
+        "lastDownload": null,
+        "logCount": 4,
+        "logs": [
+            {
+                "at": "2019-05-17T05:02:36.139Z",
+                "operationCode": "create"
+            },
+            {
+                "at": "2019-05-17T05:02:40.914Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-18T14:50:18.710Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-18T14:50:24.579Z",
+                "operationCode": "continue"
+            }
+        ]
+    },
+    "vacantRoomCount": null,
+    "unitCountComplete": 0,
+    "unitCount": "1",
+    "unitAccess": 0,
+    "occupiedRoomCount": null,
+    "waterQuantity": {
+        "waterQuantity": 0,
+        "cubicMeterPerMonth": null,
+        "waterBill": null
+    },
+    "floorCount": null,
+    "_id": "bld1v155806935613510501537",
+    "status": "pause",
+    "accesses": [
+        1
+    ],
+    "comments": [
+        {
+            "at": 1558191018697,
+            "text": ""
+        }
+    ]
+}

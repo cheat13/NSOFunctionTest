@@ -1,0 +1,56 @@
+{
+    "ea": "44001042003007",
+    "ordering": 0,
+    "road": "_บ้านหนองแวง",
+    "alley": "_0",
+    "name": "_0",
+    "houseNo": "122/1",
+    "latitude": 16.2969873,
+    "longitude": 102.8034584,
+    "buildingType": 1,
+    "other": null,
+    "accessCount": 1,
+    "access": null,
+    "vacancyCount": null,
+    "abandonedCount": null,
+    "recCtrl": {
+        "createdDateTime": "2019-05-14T07:30:55.531Z",
+        "lastModified": "2019-05-14T07:31:10.647Z",
+        "deletedDateTime": null,
+        "lastUpload": null,
+        "lastDownload": null,
+        "logCount": 2,
+        "logs": [
+            {
+                "at": "2019-05-14T07:30:55.531Z",
+                "operationCode": "create"
+            },
+            {
+                "at": "2019-05-14T07:31:10.647Z",
+                "operationCode": "continue"
+            }
+        ]
+    },
+    "vacantRoomCount": null,
+    "unitCountComplete": 0,
+    "unitCount": "1",
+    "unitAccess": 0,
+    "occupiedRoomCount": null,
+    "waterQuantity": {
+        "waterQuantity": 0,
+        "cubicMeterPerMonth": null,
+        "waterBill": null
+    },
+    "floorCount": null,
+    "_id": "bld1v155781905552840503109",
+    "status": "pause",
+    "accesses": [
+        1
+    ],
+    "comments": [
+        {
+            "at": 1557819055524,
+            "text": ""
+        }
+    ]
+}

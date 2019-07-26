@@ -1,0 +1,348 @@
+{
+    "_id": "unt1v155781907065340503109",
+    "ea": "44001042003007",
+    "buildingId": "bld1v155781905552840503109",
+    "subUnit": {
+        "roomNumber": null,
+        "accessCount": 1,
+        "accesses": [
+            1
+        ],
+        "hasPlumbing": null,
+        "hasPlumbingMeter": null,
+        "isPlumbingMeterXWA": null,
+        "hasGroundWater": null,
+        "hasGroundWaterMeter": null
+    },
+    "isHouseHold": true,
+    "isAgriculture": false,
+    "isFactorial": false,
+    "isCommercial": false,
+    "agriculture": {
+        "ricePlant": {},
+        "agronomyPlant": {},
+        "rubberTree": {},
+        "perennialPlant": {},
+        "herbsPlant": {},
+        "flowerCrop": {},
+        "mushroomPlant": {},
+        "animalFarm": {},
+        "aquaticAnimals": {}
+    },
+    "factory": {},
+    "commerce": {},
+    "waterUsage": {
+        "plumbing": {
+            "mwa": {
+                "doing": null,
+                "qualityProblem": {
+                    "hasProblem": null,
+                    "problem": {
+                        "turbidWater": false,
+                        "saltWater": false,
+                        "smell": false,
+                        "filmOfOil": false,
+                        "fogWater": false,
+                        "hardWater": false
+                    }
+                },
+                "plumbingUsage": {
+                    "waterQuantity": null,
+                    "cubicMeterPerMonth": null,
+                    "waterBill": null
+                }
+            },
+            "pwa": {
+                "doing": false,
+                "qualityProblem": {
+                    "hasProblem": null,
+                    "problem": {
+                        "turbidWater": false,
+                        "saltWater": false,
+                        "smell": false,
+                        "filmOfOil": false,
+                        "fogWater": false,
+                        "hardWater": false
+                    }
+                },
+                "plumbingUsage": {
+                    "waterQuantity": null,
+                    "cubicMeterPerMonth": null,
+                    "waterBill": null
+                }
+            },
+            "other": {
+                "doing": true,
+                "qualityProblem": {
+                    "hasProblem": true,
+                    "problem": {
+                        "turbidWater": true,
+                        "saltWater": false,
+                        "smell": false,
+                        "filmOfOil": false,
+                        "fogWater": false,
+                        "hardWater": false
+                    }
+                },
+                "plumbingUsage": {
+                    "waterQuantity": "2",
+                    "cubicMeterPerMonth": null,
+                    "waterBill": "200"
+                }
+            },
+            "waterActivityMWA": {
+                "drink": null,
+                "plant": null,
+                "farm": null,
+                "agriculture": null,
+                "product": null,
+                "service": null
+            },
+            "waterActivityPWA": {
+                "drink": null,
+                "plant": null,
+                "farm": null,
+                "agriculture": null,
+                "product": null,
+                "service": null
+            },
+            "waterActivityOther": {
+                "drink": "100",
+                "plant": null,
+                "farm": null,
+                "agriculture": null,
+                "product": null,
+                "service": null
+            },
+            "hasWaterNotRunning": true,
+            "waterNotRunningCount": "1"
+        },
+        "groundWater": {
+            "privateGroundWater": {
+                "doing": false,
+                "allCount": null,
+                "waterResourceCount": null,
+                "waterResources": []
+            },
+            "publicGroundWater": {
+                "doing": false,
+                "waterResourceCount": null,
+                "waterResources": []
+            }
+        },
+        "pool": {
+            "doing": false,
+            "poolCount": null,
+            "hasSameSize": true,
+            "waterResourceCount": null,
+            "poolSizes": [],
+            "waterResources": []
+        }
+    },
+    "disaster": {
+        "_id": null,
+        "flooded": false,
+        "yearsDisasterous": [
+            {
+                "count": null,
+                "avgDay": null,
+                "avgHour": null,
+                "waterHeightCm": null,
+                "year": null
+            },
+            {
+                "count": null,
+                "avgDay": null,
+                "avgHour": null,
+                "waterHeightCm": null,
+                "year": null
+            },
+            {
+                "count": null,
+                "avgDay": null,
+                "avgHour": null,
+                "waterHeightCm": null,
+                "year": null
+            },
+            {
+                "count": null,
+                "avgDay": null,
+                "avgHour": null,
+                "waterHeightCm": null,
+                "year": null
+            },
+            {
+                "count": null,
+                "avgDay": null,
+                "avgHour": null,
+                "waterHeightCm": null,
+                "year": null
+            }
+        ]
+    },
+    "closing": {
+        "informer": "นางรุ่งทิพย์. น้อยหว้า",
+        "factorialCategoryCode": null,
+        "serviceTypeCode": null
+    },
+    "population": {
+        "skip": false,
+        "personCount": "3",
+        "persons": [
+            {
+                "nameTitle": 2,
+                "otherTitle": null,
+                "firstName": "รุ่งทิพย์",
+                "lastName": "น้อยหว้า",
+                "relationship": 1,
+                "sex": 2,
+                "age": 49,
+                "birthDate": 24,
+                "birthMonth": 11,
+                "birthYear": 512,
+                "nationality": "ไทย",
+                "registration": 1,
+                "otherProvince": null
+            },
+            {
+                "nameTitle": 2,
+                "otherTitle": null,
+                "firstName": "สวัสดิ์",
+                "lastName": "สีหามัด",
+                "relationship": 7,
+                "sex": 2,
+                "age": 74,
+                "birthDate": 15,
+                "birthMonth": 12,
+                "birthYear": 487,
+                "nationality": "ไทย",
+                "registration": 1,
+                "otherProvince": null
+            },
+            {
+                "nameTitle": 3,
+                "otherTitle": null,
+                "firstName": "ประภาพร",
+                "lastName": "น้อยหว้า",
+                "relationship": 3,
+                "sex": 2,
+                "age": 29,
+                "birthDate": 6,
+                "birthMonth": 2,
+                "birthYear": 533,
+                "nationality": "ไทย",
+                "registration": 1,
+                "otherProvince": null
+            }
+        ]
+    },
+    "surveyCompleted": [
+        {
+            "title": "5.2 น้ำบาดาล ",
+            "name": "GroundWaterPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "5.4 น้ำจากสระน้ำส่วนบุคคล/หนองน้ำ/บึง ",
+            "name": "PoolPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "ข้อมูลพื้นฐานส่วนบุคคล",
+            "name": "UserPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "ตอนที่ 1 ครัวเรือนอยู่อาศัย",
+            "name": "ResidentialPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "ตอนที่ 6 ปัญหาอุทกภัย",
+            "name": "DisasterousPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "5.1 น้้ำประปา ",
+            "name": "PlumbingPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "แบบข้อมูลประชากร",
+            "name": "PopulationPage",
+            "hasCompleted": true,
+            "isNeed": true
+        }
+    ],
+    "comments": [],
+    "recCtrl": {
+        "createdDateTime": "2019-05-14T07:31:10.656Z",
+        "lastModified": "2019-05-14T07:42:17.429Z",
+        "deletedDateTime": null,
+        "lastUpload": null,
+        "lastDownload": null,
+        "logCount": 9,
+        "logs": [
+            {
+                "at": "2019-05-14T07:31:10.656Z",
+                "operationCode": "create"
+            },
+            {
+                "at": "2019-05-14T07:31:22.887Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-14T07:32:10.448Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-14T07:34:07.194Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-14T07:34:25.920Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-14T07:34:48.666Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-14T07:35:00.638Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-14T07:41:36.692Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-14T07:42:17.429Z",
+                "operationCode": "done"
+            }
+        ]
+    },
+    "residence": {
+        "memberCount": "3",
+        "workingAge": "3",
+        "waterSources": {
+            "plumbing": true,
+            "underGround": false,
+            "pool": false,
+            "river": false,
+            "irrigation": false,
+            "rain": false,
+            "buying": false,
+            "rainingAsIs": false,
+            "other": "",
+            "hasOther": false
+        },
+        "gardeningUse": false
+    },
+    "status": "complete"
+}

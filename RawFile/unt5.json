@@ -1,0 +1,554 @@
+{
+    "_id": "unt1v155791077158550500992",
+    "ea": "35016011076007",
+    "buildingId": "bld1v155790958639050500992",
+    "subUnit": {
+        "roomNumber": "9-04",
+        "accessCount": 1,
+        "accesses": [
+            1
+        ],
+        "hasPlumbing": true,
+        "hasPlumbingMeter": true,
+        "isPlumbingMeterXWA": true,
+        "hasGroundWater": false,
+        "hasGroundWaterMeter": null
+    },
+    "isHouseHold": true,
+    "isAgriculture": true,
+    "isFactorial": false,
+    "isCommercial": false,
+    "agriculture": {
+        "ricePlant": {},
+        "agronomyPlant": {},
+        "rubberTree": {},
+        "perennialPlant": {},
+        "herbsPlant": {
+            "doing": true,
+            "fieldCount": "1",
+            "fields": [
+                {
+                    "location": {
+                        "province": "เชียงใหม่",
+                        "district": "ฮอด",
+                        "subDistrict": "หางดง"
+                    },
+                    "area": {
+                        "rai": "0",
+                        "ngan": "0",
+                        "sqWa": "10"
+                    },
+                    "irrigationField": "false",
+                    "plantings": {
+                        "plantingCount": 5,
+                        "plants": [
+                            {
+                                "code": "141",
+                                "name": "กระถิน"
+                            },
+                            {
+                                "code": "151",
+                                "name": "ขมิ้น"
+                            },
+                            {
+                                "code": "152",
+                                "name": "ข่า"
+                            },
+                            {
+                                "code": "196",
+                                "name": "ผักชีฝรั่ง"
+                            },
+                            {
+                                "code": "208",
+                                "name": "พริกขี้หนู"
+                            }
+                        ]
+                    },
+                    "primaryPlant": {
+                        "plantingCount": 0,
+                        "plants": []
+                    },
+                    "thisPlantOnly": null,
+                    "otherPlantings": {
+                        "plantingCount": 0,
+                        "plants": []
+                    },
+                    "waterSources": {
+                        "plumbing": true,
+                        "underGround": false,
+                        "pool": false,
+                        "river": false,
+                        "irrigation": false,
+                        "rain": false,
+                        "rainingAsIs": true,
+                        "buying": false,
+                        "hasOther": false,
+                        "other": ""
+                    }
+                }
+            ]
+        },
+        "flowerCrop": {},
+        "mushroomPlant": {},
+        "animalFarm": {
+            "doing": false,
+            "cow": {
+                "hasItem": null,
+                "itemCount": null
+            },
+            "buffalo": {
+                "hasItem": null,
+                "itemCount": null
+            },
+            "pig": {
+                "hasItem": null,
+                "itemCount": null
+            },
+            "goat": {
+                "hasItem": null,
+                "itemCount": null
+            },
+            "sheep": {
+                "hasItem": null,
+                "itemCount": null
+            },
+            "chicken": {
+                "hasItem": null,
+                "itemCount": null
+            },
+            "duck": {
+                "hasItem": null,
+                "itemCount": null
+            },
+            "goose": {
+                "hasItem": null,
+                "itemCount": null
+            },
+            "silkWool": {
+                "hasItem": null,
+                "itemCount": null
+            },
+            "other": {
+                "hasItem": null,
+                "itemCount": null
+            },
+            "otherName": null,
+            "animalUnit": null,
+            "waterSources": {
+                "plumbing": false,
+                "underGround": false,
+                "pool": false,
+                "river": false,
+                "irrigation": false,
+                "rain": false,
+                "rainingAsIs": false,
+                "buying": false,
+                "hasOther": false,
+                "other": ""
+            }
+        },
+        "aquaticAnimals": {}
+    },
+    "factory": {},
+    "commerce": {},
+    "waterUsage": {
+        "plumbing": {
+            "mwa": {
+                "doing": null,
+                "qualityProblem": {
+                    "hasProblem": null,
+                    "problem": {
+                        "turbidWater": false,
+                        "saltWater": false,
+                        "smell": false,
+                        "filmOfOil": false,
+                        "fogWater": false,
+                        "hardWater": false
+                    }
+                },
+                "plumbingUsage": {
+                    "waterQuantity": null,
+                    "cubicMeterPerMonth": null,
+                    "waterBill": null
+                }
+            },
+            "pwa": {
+                "doing": true,
+                "qualityProblem": {
+                    "hasProblem": true,
+                    "problem": {
+                        "turbidWater": true,
+                        "saltWater": false,
+                        "smell": false,
+                        "filmOfOil": false,
+                        "fogWater": false,
+                        "hardWater": false
+                    }
+                },
+                "plumbingUsage": {
+                    "waterQuantity": "2",
+                    "cubicMeterPerMonth": null,
+                    "waterBill": "119.20"
+                }
+            },
+            "other": {
+                "doing": false,
+                "qualityProblem": {
+                    "hasProblem": null,
+                    "problem": {
+                        "turbidWater": false,
+                        "saltWater": false,
+                        "smell": false,
+                        "filmOfOil": false,
+                        "fogWater": false,
+                        "hardWater": false
+                    }
+                },
+                "plumbingUsage": {
+                    "waterQuantity": null,
+                    "cubicMeterPerMonth": null,
+                    "waterBill": null
+                }
+            },
+            "waterActivityMWA": {
+                "drink": null,
+                "plant": null,
+                "farm": null,
+                "agriculture": null,
+                "product": null,
+                "service": null
+            },
+            "waterActivityPWA": {
+                "drink": "40",
+                "plant": "10",
+                "farm": null,
+                "agriculture": "50",
+                "product": null,
+                "service": null
+            },
+            "waterActivityOther": {
+                "drink": null,
+                "plant": null,
+                "farm": null,
+                "agriculture": null,
+                "product": null,
+                "service": null
+            },
+            "hasWaterNotRunning": false,
+            "waterNotRunningCount": null
+        },
+        "groundWater": {
+            "privateGroundWater": {
+                "doing": false,
+                "allCount": null,
+                "waterResourceCount": null,
+                "waterResources": []
+            },
+            "publicGroundWater": {
+                "doing": false,
+                "waterResourceCount": null,
+                "waterResources": []
+            }
+        },
+        "pool": {
+            "doing": false,
+            "poolCount": null,
+            "hasSameSize": true,
+            "waterResourceCount": null,
+            "poolSizes": [],
+            "waterResources": []
+        },
+        "buying": {
+            "package": [
+                {
+                    "name": null,
+                    "size": null,
+                    "drink": null,
+                    "agriculture": null,
+                    "factory": null,
+                    "service": null
+                },
+                {
+                    "name": null,
+                    "size": null,
+                    "drink": null,
+                    "agriculture": null,
+                    "factory": null,
+                    "service": null
+                },
+                {
+                    "name": null,
+                    "size": null,
+                    "drink": null,
+                    "agriculture": null,
+                    "factory": null,
+                    "service": null
+                },
+                {
+                    "name": "4. ขวด",
+                    "size": "1000",
+                    "drink": "20",
+                    "agriculture": null,
+                    "factory": 0,
+                    "service": 0
+                },
+                {
+                    "name": null,
+                    "size": null,
+                    "drink": null,
+                    "agriculture": null,
+                    "factory": null,
+                    "service": null
+                },
+                {
+                    "name": null,
+                    "size": null,
+                    "drink": null,
+                    "agriculture": null,
+                    "factory": null,
+                    "service": null
+                },
+                {
+                    "name": null,
+                    "size": null,
+                    "drink": null,
+                    "agriculture": null,
+                    "factory": null,
+                    "service": null
+                },
+                {
+                    "name": null,
+                    "size": null,
+                    "drink": null,
+                    "agriculture": null,
+                    "factory": null,
+                    "service": null
+                },
+                {
+                    "name": null,
+                    "size": null,
+                    "drink": null,
+                    "agriculture": null,
+                    "factory": null,
+                    "service": null
+                }
+            ]
+        }
+    },
+    "disaster": {
+        "_id": null,
+        "flooded": false,
+        "yearsDisasterous": [
+            {
+                "count": null,
+                "avgDay": null,
+                "avgHour": null,
+                "waterHeightCm": null,
+                "year": null
+            },
+            {
+                "count": null,
+                "avgDay": null,
+                "avgHour": null,
+                "waterHeightCm": null,
+                "year": null
+            },
+            {
+                "count": null,
+                "avgDay": null,
+                "avgHour": null,
+                "waterHeightCm": null,
+                "year": null
+            },
+            {
+                "count": null,
+                "avgDay": null,
+                "avgHour": null,
+                "waterHeightCm": null,
+                "year": null
+            },
+            {
+                "count": null,
+                "avgDay": null,
+                "avgHour": null,
+                "waterHeightCm": null,
+                "year": null
+            }
+        ]
+    },
+    "closing": {
+        "informer": "นายท่วม ทากาศ",
+        "factorialCategoryCode": null,
+        "serviceTypeCode": null
+    },
+    "population": {
+        "skip": false,
+        "personCount": "1",
+        "persons": [
+            {
+                "nameTitle": 1,
+                "otherTitle": null,
+                "firstName": "ปธิกร",
+                "lastName": "เอี่ยมสะอาด",
+                "relationship": 1,
+                "sex": 1,
+                "age": 48,
+                "birthDate": 99,
+                "birthMonth": 99,
+                "birthYear": 514,
+                "nationality": "ไทย",
+                "registration": 2,
+                "otherProvince": null
+            }
+        ]
+    },
+    "surveyCompleted": [
+        {
+            "title": "5.2 น้ำบาดาล ",
+            "name": "GroundWaterPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "5.4 น้ำจากสระน้ำส่วนบุคคล/หนองน้ำ/บึง ",
+            "name": "PoolPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "ข้อมูลพื้นฐานส่วนบุคคล",
+            "name": "UserPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "ตอนที่ 1 ครัวเรือนอยู่อาศัย",
+            "name": "ResidentialPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "ตอนที่ 2 การทำการเกษตร ",
+            "name": "AgriculturePage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "ตอนที่ 6 ปัญหาอุทกภัย",
+            "name": "DisasterousPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "5.1 น้้ำประปา ",
+            "name": "PlumbingPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "5.7 น้ำที่ซื้อมาใช้",
+            "name": "BuyingPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "แบบข้อมูลประชากร",
+            "name": "PopulationPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "ตอนที่ 2.5 พืชผัก สมุนไพร",
+            "name": "HerbsPlantPage",
+            "hasCompleted": true,
+            "isNeed": true
+        },
+        {
+            "title": "ตอนที่ 2.8 การเลี้ยงสัตว์เพื่อขายหรือใช้งานเกษตร",
+            "name": "AnimalFarmPage",
+            "hasCompleted": true,
+            "isNeed": false
+        }
+    ],
+    "comments": [],
+    "recCtrl": {
+        "createdDateTime": "2019-05-15T08:59:31.589Z",
+        "lastModified": "2019-05-15T09:12:33.226Z",
+        "deletedDateTime": null,
+        "lastUpload": null,
+        "lastDownload": null,
+        "logCount": 13,
+        "logs": [
+            {
+                "at": "2019-05-15T08:59:31.589Z",
+                "operationCode": "create"
+            },
+            {
+                "at": "2019-05-15T08:59:49.119Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T09:00:09.580Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T09:00:23.329Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T09:02:08.487Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T09:09:32.727Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T09:10:26.174Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T09:10:30.139Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T09:10:33.696Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T09:10:46.678Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T09:10:50.198Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T09:12:10.154Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T09:12:33.226Z",
+                "operationCode": "done"
+            }
+        ]
+    },
+    "residence": {
+        "memberCount": "1",
+        "workingAge": "1",
+        "waterSources": {
+            "plumbing": true,
+            "underGround": false,
+            "pool": false,
+            "river": false,
+            "irrigation": false,
+            "rain": false,
+            "buying": true,
+            "rainingAsIs": false,
+            "other": "",
+            "hasOther": false
+        },
+        "gardeningUse": true
+    },
+    "status": "complete"
+}

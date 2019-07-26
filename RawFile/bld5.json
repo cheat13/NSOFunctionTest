@@ -1,0 +1,68 @@
+{
+    "ea": "35016011076007",
+    "ordering": 0,
+    "road": "เชียงใหม่  -  ฮอด",
+    "alley": "ไม่มีชื่อ",
+    "name": "ที่ทำการปกครองอำเภอฮอด",
+    "houseNo": "9",
+    "latitude": 18.1928436,
+    "longitude": 98.6109868,
+    "buildingType": 9,
+    "other": null,
+    "accessCount": 1,
+    "access": null,
+    "vacancyCount": null,
+    "abandonedCount": null,
+    "recCtrl": {
+        "createdDateTime": "2019-05-15T08:39:46.395Z",
+        "lastModified": "2019-05-15T08:52:06.011Z",
+        "deletedDateTime": null,
+        "lastUpload": null,
+        "lastDownload": null,
+        "logCount": 5,
+        "logs": [
+            {
+                "at": "2019-05-15T08:39:46.395Z",
+                "operationCode": "create"
+            },
+            {
+                "at": "2019-05-15T08:41:04.376Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T08:44:29.144Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T08:52:03.006Z",
+                "operationCode": "continue"
+            },
+            {
+                "at": "2019-05-15T08:52:06.011Z",
+                "operationCode": "continue"
+            }
+        ]
+    },
+    "vacantRoomCount": null,
+    "unitCountComplete": 0,
+    "unitCount": "8",
+    "unitAccess": 0,
+    "occupiedRoomCount": null,
+    "waterQuantity": {
+        "waterQuantity": 0,
+        "cubicMeterPerMonth": null,
+        "waterBill": null
+    },
+    "floorCount": null,
+    "_id": "bld1v155790958639050500992",
+    "status": "pause",
+    "accesses": [
+        1
+    ],
+    "comments": [
+        {
+            "at": 1557910322999,
+            "text": ""
+        }
+    ]
+}
