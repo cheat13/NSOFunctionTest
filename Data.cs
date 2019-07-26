@@ -20,18 +20,18 @@ namespace NSOFunctionTest
 
         public Data()
         {
-            Unt1 = JsonConvert.DeserializeObject<HouseHoldSample>(ReadText(@"RawFile\unt1.json"));
-            Unt2 = JsonConvert.DeserializeObject<HouseHoldSample>(ReadText(@"RawFile\unt2.json"));
-            Unt3 = JsonConvert.DeserializeObject<HouseHoldSample>(ReadText(@"RawFile\unt3.json"));
-            Unt4 = JsonConvert.DeserializeObject<HouseHoldSample>(ReadText(@"RawFile\unt4.json"));
-            Unt5 = JsonConvert.DeserializeObject<HouseHoldSample>(ReadText(@"RawFile\unt5.json"));
-            Bld1 = JsonConvert.DeserializeObject<BuildingSample>(ReadText(@"RawFile\bld1.json"));
-            Bld2 = JsonConvert.DeserializeObject<BuildingSample>(ReadText(@"RawFile\bld2.json"));
-            Bld3 = JsonConvert.DeserializeObject<BuildingSample>(ReadText(@"RawFile\bld3.json"));
-            Bld4 = JsonConvert.DeserializeObject<BuildingSample>(ReadText(@"RawFile\bld4.json"));
-            Bld5 = JsonConvert.DeserializeObject<BuildingSample>(ReadText(@"RawFile\bld5.json"));
-            Com5_1 = JsonConvert.DeserializeObject<CommunitySample>(ReadText(@"RawFile\com5_1.json"));
-            Com5_2 = JsonConvert.DeserializeObject<CommunitySample>(ReadText(@"RawFile\com5_2.json"));
+            Unt1 = JsonConvert.DeserializeObject<HouseHoldSample>(ReadText(@"..\..\..\RawFile\unt1.json"));
+            Unt2 = JsonConvert.DeserializeObject<HouseHoldSample>(ReadText(@"..\..\..\RawFile\unt2.json"));
+            Unt3 = JsonConvert.DeserializeObject<HouseHoldSample>(ReadText(@"..\..\..\RawFile\unt3.json"));
+            Unt4 = JsonConvert.DeserializeObject<HouseHoldSample>(ReadText(@"..\..\..\RawFile\unt4.json"));
+            Unt5 = JsonConvert.DeserializeObject<HouseHoldSample>(ReadText(@"..\..\..\RawFile\unt5.json"));
+            Bld1 = JsonConvert.DeserializeObject<BuildingSample>(ReadText(@"..\..\..\RawFile\bld1.json"));
+            Bld2 = JsonConvert.DeserializeObject<BuildingSample>(ReadText(@"..\..\..\RawFile\bld2.json"));
+            Bld3 = JsonConvert.DeserializeObject<BuildingSample>(ReadText(@"..\..\..\RawFile\bld3.json"));
+            Bld4 = JsonConvert.DeserializeObject<BuildingSample>(ReadText(@"..\..\..\RawFile\bld4.json"));
+            Bld5 = JsonConvert.DeserializeObject<BuildingSample>(ReadText(@"..\..\..\RawFile\bld5.json"));
+            Com5_1 = JsonConvert.DeserializeObject<CommunitySample>(ReadText(@"..\..\..\RawFile\com5_1.json"));
+            Com5_2 = JsonConvert.DeserializeObject<CommunitySample>(ReadText(@"..\..\..\RawFile\com5_2.json"));
         }
 
         public string ReadText(string path)
