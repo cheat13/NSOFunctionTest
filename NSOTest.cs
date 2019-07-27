@@ -161,9 +161,9 @@ namespace NSOFunctionTest
             result.Should().BeEquivalentTo(expect);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest1.CubicMeterSurface), MemberType = typeof(DataForTest1))]
-        public void TestCubicMeterSurface(Survey survey, string expect)
+        public void TestCubicMeterSurface(Survey survey, CubicMeterSurface expect)
         {
             var sut = new BaseFunction();
             var result = sut.CubicMeterSurface(survey.Unit);
