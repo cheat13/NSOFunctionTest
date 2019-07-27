@@ -26,16 +26,43 @@ namespace NSOFunctionTest
             result.Should().BeEquivalentTo(expect);
         }
 
-        [Theory] // Failed
-        [MemberData(nameof(DataForTest1.IsHouseHoldGoodPlumbing), MemberType = typeof(DataForTest1))]
-        public void TestIsHouseHoldGoodPlumbing(Survey survey, string expect)
+        [Theory] // Passed
+        [MemberData(nameof(DataForTest1.IsHouseHold), MemberType = typeof(DataForTest1))]
+        public void TestIsHouseHold(Survey survey, int expect)
         {
             var sut = new BaseFunction();
             var result = sut.IsHouseHoldGoodPlumbing(survey.Unit);
-            result.Should().BeEquivalentTo(expect);
+            result.IsHouseHold.Should().Be(expect);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
+        [MemberData(nameof(DataForTest1.IsHouseHoldGoodPlumbing), MemberType = typeof(DataForTest1))]
+        public void TestIsHouseHoldGoodPlumbing(Survey survey, int expect)
+        {
+            var sut = new BaseFunction();
+            var result = sut.IsHouseHoldGoodPlumbing(survey.Unit);
+            result.IsHouseHoldGoodPlumbing.Should().Be(expect);
+        }
+
+        [Theory] // Passed
+        [MemberData(nameof(DataForTest1.IsHouseHoldHasPlumbingCountryside), MemberType = typeof(DataForTest1))]
+        public void TestIsHouseHoldHasPlumbingCountryside(Survey survey, int expect)
+        {
+            var sut = new BaseFunction();
+            var result = sut.IsHouseHoldGoodPlumbing(survey.Unit);
+            result.IsHouseHoldHasPlumbingCountryside.Should().Be(expect);
+        }
+
+        [Theory] // Passed
+        [MemberData(nameof(DataForTest1.IsHouseHoldHasPlumbingDistrict), MemberType = typeof(DataForTest1))]
+        public void TestIsHouseHoldHasPlumbingDistrict(Survey survey, int expect)
+        {
+            var sut = new BaseFunction();
+            var result = sut.IsHouseHoldGoodPlumbing(survey.Unit);
+            result.IsHouseHoldHasPlumbingDistrict.Should().Be(expect);
+        }
+
+        [Theory] // Passed
         [MemberData(nameof(DataForTest1.IsFactorialWaterQuality), MemberType = typeof(DataForTest1))]
         public void TestIsFactorialWaterQuality(Survey survey, int expect)
         {
@@ -44,7 +71,7 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest1.IsCommercialWaterQuality), MemberType = typeof(DataForTest1))]
         public void TestIsCommercialWaterQuality(Survey survey, int expect)
         {
@@ -53,7 +80,7 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest1.IsFactorial), MemberType = typeof(DataForTest1))]
         public void TestIsFactorial(Survey survey, int expect)
         {
@@ -62,7 +89,7 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest1.IsFactorialWaterTreatment), MemberType = typeof(DataForTest1))]
         public void TestIsFactorialWaterTreatment(Survey survey, int expect)
         {
@@ -71,7 +98,7 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest1.CountGroundWaterHouseHold), MemberType = typeof(DataForTest1))]
         public void TestCountGroundWaterHouseHold(Survey survey, int expect)
         {

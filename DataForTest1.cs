@@ -44,142 +44,213 @@ namespace NSOFunctionTest
                 },
             },
         };
+        public static IEnumerable<object[]> IsHouseHold = new List<object[]>
+        {
+            new object[] {
+                SurveyData.Data1,
+                1,
+            },
+            new object[] {
+                SurveyData.Data2,
+                1,
+            },
+            new object[] {
+                SurveyData.Data3,
+                1,
+            },
+            new object[] {
+                SurveyData.Data4,
+                1,
+            },
+            new object[] {
+                SurveyData.Data5,
+                1,
+            },
+        };
         public static IEnumerable<object[]> IsHouseHoldGoodPlumbing = new List<object[]>
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                1,
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                1,
+            },
+        };
+
+        public static IEnumerable<object[]> IsHouseHoldHasPlumbingCountryside = new List<object[]>
+        {
+            new object[] {
+                SurveyData.Data1,
+                1,
+            },
+            new object[] {
+                SurveyData.Data2,
+                0,
+            },
+            new object[] {
+                SurveyData.Data3,
+                0,
+            },
+            new object[] {
+                SurveyData.Data4,
+                0,
+            },
+            new object[] {
+                SurveyData.Data5,
+                0,
+            },
+        };
+
+        public static IEnumerable<object[]> IsHouseHoldHasPlumbingDistrict = new List<object[]>
+        {
+            new object[] {
+                SurveyData.Data1,
+                0,
+            },
+            new object[] {
+                SurveyData.Data2,
+                1,
+            },
+            new object[] {
+                SurveyData.Data3,
+                1,
+            },
+            new object[] {
+                SurveyData.Data4,
+                1,
+            },
+            new object[] {
+                SurveyData.Data5,
+                1,
             },
         };
         public static IEnumerable<object[]> IsFactorialWaterQuality = new List<object[]>
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                0,
             },
         };
         public static IEnumerable<object[]> IsCommercialWaterQuality = new List<object[]>
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+               0,
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+               0,
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+               0,
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+               0,
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+               0,
             },
         };
         public static IEnumerable<object[]> IsFactorial = new List<object[]>
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                0,
             },
         };
         public static IEnumerable<object[]> IsFactorialWaterTreatment = new List<object[]>
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                0,
             },
         };
         public static IEnumerable<object[]> CountGroundWaterHouseHold = new List<object[]>
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                0,
             },
         };
         public static IEnumerable<object[]> CountPopulation = new List<object[]>
