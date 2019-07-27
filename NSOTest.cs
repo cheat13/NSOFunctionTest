@@ -127,14 +127,14 @@ namespace NSOFunctionTest
             result.TimeWaterHeightCm.Should().Be(expect2);
         }
 
-        // [Theory] // Failed
-        // [MemberData(nameof(DataForTest1.HasntPlumbing), MemberType = typeof(DataForTest1))]
-        // public void TestHasntPlumbing(Survey survey, int expect)
-        // {
-        //     var sut = new BaseFunction();
-        //     var result = sut.HasntPlumbing(survey.Unit);
-        //     Assert.Equal(expect, result);
-        // }
+        [Theory] // Failed
+        [MemberData(nameof(DataForTest1.HasntPlumbing), MemberType = typeof(DataForTest1))]
+        public void TestHasntPlumbing(Survey survey, int expect)
+        {
+            var sut = new BaseFunction();
+            var result = sut.HasntPlumbing(survey.Unit);
+            Assert.Equal(expect, result);
+        }
 
         [Theory] // Passed
         [MemberData(nameof(DataForTest1.PlumbingSeviceUsage), MemberType = typeof(DataForTest1))]
@@ -223,14 +223,14 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        // [Theory] // Failed
-        // [MemberData(nameof(DataForTest2.FieldCommunity), MemberType = typeof(DataForTest2))]
-        // public void TestFieldCommunity(CommunitySample com, double expect)
-        // {
-        //     var sut = new BaseFunction();
-        //     var result = sut.FieldCommunity(com);
-        //     Assert.Equal(expect, result);
-        // }
+        [Theory] // Failed
+        [MemberData(nameof(DataForTest2.FieldCommunity), MemberType = typeof(DataForTest2))]
+        public void TestFieldCommunity(CommunitySample com, double expect)
+        {
+            var sut = new BaseFunction();
+            var result = sut.FieldCommunity(com);
+            Assert.Equal(expect, result);
+        }
 
         [Theory] // Passed
         [MemberData(nameof(DataForTest2.CommunityNatureDisaster), MemberType = typeof(DataForTest2))]
