@@ -20,11 +20,11 @@ namespace NSOFunctionTest
         {
             new object[] {
                 Data.Com5_1,
-                "test",
+                0,
             },
             new object[] {
                 Data.Com5_2,
-                "test",
+                0,
             },
         };
         public static IEnumerable<object[]> FieldCommunity = new List<object[]>
@@ -42,11 +42,11 @@ namespace NSOFunctionTest
         {
             new object[] {
                 Data.Com5_1,
-                "test",
+                0,
             },
             new object[] {
                 Data.Com5_2,
-                "test",
+                0,
             },
         };
         public static IEnumerable<object[]> WaterSourcesCommunity = new List<object[]>

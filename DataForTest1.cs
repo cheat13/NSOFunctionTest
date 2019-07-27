@@ -164,69 +164,79 @@ namespace NSOFunctionTest
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                0,
             },
         };
         public static IEnumerable<object[]> CountPopulation = new List<object[]>
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                3,
+                3
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                3,
+                3
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                2,
+                2
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                4,
+                0
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                1,
+                1
             },
         };
         public static IEnumerable<object[]> Disasterous = new List<object[]>
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                0,
+                0
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                0,
+                0
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                0,
+                0
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                0,
+                0
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                0,
+                0
             },
         };
         public static IEnumerable<object[]> HasntPlumbing = new List<object[]>
@@ -256,23 +266,33 @@ namespace NSOFunctionTest
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                0,
+                0,
+                0
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                0,
+                0,
+                0
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                0,
+                0,
+                0
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                0,
+                0,
+                0
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                1,
+                0,
+                0
             },
         };
         public static IEnumerable<object[]> WaterSourcesHouseHold = new List<object[]>
@@ -302,23 +322,23 @@ namespace NSOFunctionTest
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                0,
             },
         };
         public static IEnumerable<object[]> PeopleInFloodedArea = new List<object[]>
