@@ -205,14 +205,14 @@ namespace NSOFunctionTest
 
         // #region สน.2
 
-        // [Theory] // Failed
-        // [MemberData(nameof(DataForTest2.IsCommunityWaterManagementHasWaterTreatment), MemberType = typeof(DataForTest2))]
-        // public void TestIsCommunityWaterManagementHasWaterTreatment(CommunitySample com, int expect)
-        // {
-        //     var sut = new BaseFunction();
-        //     var result = sut.IsCommunityWaterManagementHasWaterTreatment(com);
-        //     Assert.Equal(expect, result);
-        // }
+        [Theory] // Passed
+        [MemberData(nameof(DataForTest2.IsCommunityWaterManagementHasWaterTreatment), MemberType = typeof(DataForTest2))]
+        public void TestIsCommunityWaterManagementHasWaterTreatment(CommunitySample com, int expect)
+        {
+            var sut = new BaseFunction();
+            var result = sut.IsCommunityWaterManagementHasWaterTreatment(com);
+            Assert.Equal(expect, result);
+        }
 
         [Theory] // Passed
         [MemberData(nameof(DataForTest2.CountGroundWaterCommunity), MemberType = typeof(DataForTest2))]
