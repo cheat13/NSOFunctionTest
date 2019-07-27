@@ -241,14 +241,14 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        // [Theory] // Failed
-        // [MemberData(nameof(DataForTest2.WaterSourcesCommunity), MemberType = typeof(DataForTest2))]
-        // public void TestWaterSourcesCommunity(CommunitySample com, string expect)
-        // {
-        //     var sut = new BaseFunction();
-        //     var result = sut.WaterSourcesCommunity(com);
-        //     result.Should().BeEquivalentTo(expect);
-        // }
+        [Theory] // Passed
+        [MemberData(nameof(DataForTest2.WaterSourcesCommunity), MemberType = typeof(DataForTest2))]
+        public void TestWaterSourcesCommunity(CommunitySample com, WaterSourcesCommunity expect)
+        {
+            var sut = new BaseFunction();
+            var result = sut.WaterSourcesCommunity(com);
+            result.Should().BeEquivalentTo(expect);
+        }
 
         [Theory] // Passed
         [MemberData(nameof(DataForTest2.CubicMeterGroundWater), MemberType = typeof(DataForTest2))]

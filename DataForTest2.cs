@@ -54,11 +54,33 @@ namespace NSOFunctionTest
         {
             new object[] {
                 Data.Com5_1,
-                "test",
+                new WaterSourcesCommunity {
+                    Info = new List<WaterSourcesCommunityInfo> {
+                        new WaterSourcesCommunityInfo {
+                            Name = "อ่างห้วนริน (ข้างวัดบ้านโป่ง)",
+                            Area_Code = "501601",
+                            Capacity = 3*15*30
+                        },
+                        new WaterSourcesCommunityInfo {
+                            Name = "อ่างห้วยริน (บนหมู่บ้าน)",
+                            Area_Code = "501601",
+                            Capacity = 4*20*40
+                        },
+                        new WaterSourcesCommunityInfo {
+                            Name = "อ่างห้วยริน (บนดอย)",
+                            Area_Code = "501601",
+                            Capacity = 4*22*38
+                        },
+                    },
+                    CubicMeter = (3*15*30)+(4*20*40)+(4*22*38)
+                },
             },
             new object[] {
                 Data.Com5_2,
-                "test",
+                new WaterSourcesCommunity {
+                    Info = new List<WaterSourcesCommunityInfo>(),
+                    CubicMeter = 0
+                },
             },
         };
         public static IEnumerable<object[]> CubicMeterGroundWater = new List<object[]>
