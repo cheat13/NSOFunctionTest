@@ -71,7 +71,7 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest1.CountGroundWaterHouseHold), MemberType = typeof(DataForTest1))]
         public void TestCountGroundWaterHouseHold(Survey survey, int expect)
         {
@@ -80,22 +80,24 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest1.CountPopulation), MemberType = typeof(DataForTest1))]
-        public void TestCountPopulation(Survey survey, string expect)
+        public void TestCountPopulation(Survey survey, int expect1, int expect2)
         {
             var sut = new BaseFunction();
             var result = sut.CountPopulation(survey.Unit);
-            result.Should().BeEquivalentTo(expect);
+            result.countPopulation.Should().Be(expect1);
+            result.countWorkingAge.Should().Be(expect2);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest1.Disasterous), MemberType = typeof(DataForTest1))]
-        public void TestDisasterous(Survey survey, string expect)
+        public void TestDisasterous(Survey survey, double expect1, double expect2)
         {
             var sut = new BaseFunction();
             var result = sut.Disasterous(survey.Unit);
-            result.Should().BeEquivalentTo(expect);
+            result.AvgWaterHeightCm.Should().Be(expect1);
+            result.TimeWaterHeightCm.Should().Be(expect2);
         }
 
         [Theory] // Failed
@@ -107,13 +109,15 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest1.PlumbingSeviceUsage), MemberType = typeof(DataForTest1))]
-        public void TestPlumbingSeviceUsage(Survey survey, string expect)
+        public void TestPlumbingSeviceUsage(Survey survey, int expect1, int expect2, int expect3)
         {
             var sut = new BaseFunction();
             var result = sut.PlumbingSeviceUsage(survey.Building, survey.Unit);
-            result.Should().BeEquivalentTo(expect);
+            result.IsGovernment.Should().Be(expect1);
+            result.IsGovernmentUsage.Should().Be(expect2);
+            result.IsGovernmentWaterQuality.Should().Be(expect3);
         }
 
         [Theory] // Failed
@@ -125,7 +129,7 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest1.IndustryHasWasteWaterTreatment), MemberType = typeof(DataForTest1))]
         public void TestIndustryHasWasteWaterTreatment(Survey survey, int expect)
         {
@@ -183,7 +187,7 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest2.CountGroundWaterCommunity), MemberType = typeof(DataForTest2))]
         public void TestCountGroundWaterCommunity(CommunitySample com, double expect)
         {
@@ -201,7 +205,7 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest2.CommunityNatureDisaster), MemberType = typeof(DataForTest2))]
         public void TestCommunityNatureDisaster(CommunitySample com, int expect)
         {
