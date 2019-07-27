@@ -370,23 +370,23 @@ namespace NSOFunctionTest
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                0,
             },
         };
         public static IEnumerable<object[]> IndustryHasWasteWaterTreatment = new List<object[]>
@@ -416,23 +416,23 @@ namespace NSOFunctionTest
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                0,
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                0,
             },
         };
         public static IEnumerable<object[]> CubicMeterGroundWater = new List<object[]>

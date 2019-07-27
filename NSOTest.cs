@@ -127,7 +127,7 @@ namespace NSOFunctionTest
             result.TimeWaterHeightCm.Should().Be(expect2);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest1.HasntPlumbing), MemberType = typeof(DataForTest1))]
         public void TestHasntPlumbing(Survey survey, int expect)
         {
@@ -147,14 +147,14 @@ namespace NSOFunctionTest
             result.IsGovernmentWaterQuality.Should().Be(expect3);
         }
 
-        // [Theory] // Failed
-        // [MemberData(nameof(DataForTest1.WaterSourcesHouseHold), MemberType = typeof(DataForTest1))]
-        // public void TestWaterSourcesHouseHold(Survey survey, double expect)
-        // {
-        //     var sut = new BaseFunction();
-        //     var result = sut.WaterSourcesHouseHold(survey.Unit);
-        //     Assert.Equal(expect, result);
-        // }
+        [Theory] // Passed
+        [MemberData(nameof(DataForTest1.WaterSourcesHouseHold), MemberType = typeof(DataForTest1))]
+        public void TestWaterSourcesHouseHold(Survey survey, double expect)
+        {
+            var sut = new BaseFunction();
+            var result = sut.WaterSourcesHouseHold(survey.Unit);
+            Assert.Equal(expect, result);
+        }
 
         [Theory] // Passed
         [MemberData(nameof(DataForTest1.IndustryHasWasteWaterTreatment), MemberType = typeof(DataForTest1))]
@@ -165,14 +165,14 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        // [Theory] // Failed
-        // [MemberData(nameof(DataForTest1.PeopleInFloodedArea), MemberType = typeof(DataForTest1))]
-        // public void TestPeopleInFloodedArea(Survey survey, int expect)
-        // {
-        //     var sut = new BaseFunction();
-        //     var result = sut.PeopleInFloodedArea(survey.Unit);
-        //     Assert.Equal(expect, result);
-        // }
+        [Theory] // Passed
+        [MemberData(nameof(DataForTest1.PeopleInFloodedArea), MemberType = typeof(DataForTest1))]
+        public void TestPeopleInFloodedArea(Survey survey, int expect)
+        {
+            var sut = new BaseFunction();
+            var result = sut.PeopleInFloodedArea(survey.Unit);
+            Assert.Equal(expect, result);
+        }
 
         [Theory] // Passed
         [MemberData(nameof(DataForTest1.CubicMeterGroundWater), MemberType = typeof(DataForTest1))]
@@ -223,7 +223,7 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest2.FieldCommunity), MemberType = typeof(DataForTest2))]
         public void TestFieldCommunity(CommunitySample com, double expect)
         {
