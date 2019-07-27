@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using NSOFunction.Models;
 
 namespace NSOFunctionTest
 {
@@ -64,33 +65,41 @@ namespace NSOFunctionTest
         {
             new object[] {
                 Data.Com5_1,
-                "test",
+                new CubicMeterGroundWaterCommunity {
+                    CubicMeterGroundWaterForAgriculture = 0,
+                    CubicMeterGroundWaterForDrink = 0,
+                    CubicMeterGroundWaterForUse = 0
+                }
             },
             new object[] {
                 Data.Com5_2,
-                "test",
+                new CubicMeterGroundWaterCommunity {
+                    CubicMeterGroundWaterForAgriculture = 0,
+                    CubicMeterGroundWaterForDrink = 0,
+                    CubicMeterGroundWaterForUse = 0
+                }
             },
         };
         public static IEnumerable<object[]> CubicMeterSurfaceForAgriculture = new List<object[]>
         {
             new object[] {
                 Data.Com5_1,
-                "test",
+                0,
             },
             new object[] {
                 Data.Com5_2,
-                "test",
+                0,
             },
         };
         public static IEnumerable<object[]> CubicMeterSurfaceForDrink = new List<object[]>
         {
             new object[] {
                 Data.Com5_1,
-                "test",
+                20000*12,
             },
             new object[] {
                 Data.Com5_2,
-                "test",
+                0,
             },
         };
     }
