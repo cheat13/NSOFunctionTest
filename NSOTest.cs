@@ -143,9 +143,9 @@ namespace NSOFunctionTest
             Assert.Equal(expect, result);
         }
 
-        [Theory] // Failed
+        [Theory] // Passed
         [MemberData(nameof(DataForTest1.CubicMeterGroundWater), MemberType = typeof(DataForTest1))]
-        public void TestCubicMeterGroundWater(Survey survey, string expect)
+        public void TestCubicMeterGroundWater(Survey survey, CubicMeterGroundWater expect)
         {
             var sut = new BaseFunction();
             var result = sut.CubicMeterGroundWater(survey.Unit, survey.Building);
