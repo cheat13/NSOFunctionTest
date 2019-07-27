@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using NSOFunction.Models;
+using NSOWater.HotMigration.Models;
 
 namespace NSOFunctionTest
 {
@@ -347,23 +348,135 @@ namespace NSOFunctionTest
         {
             new object[] {
                 SurveyData.Data1,
-                "test",
+                new CubicMeterGroundWater {
+                    PrivateDoing = false,
+                    AllCount = 0,
+                    PrivateWaterResourceCount = 0,
+                    PrivateGroundWaterInfo = new List<GroundWaterInfo>(),
+                    PublicDoing = false,
+                    PublicWaterResourceCount = 0,
+                    Package = new List<Package>(),
+                    PublicWaterGroundWaterInfo = new List<GroundWaterInfo>(),
+                    CanComputeCubicMeterGroundWaterForAgriculture = true,
+                    CubicMeterGroundWaterForAgriculture = 0,
+                    CanComputeCubicMeterGroundWaterForService = true,
+                    CubicMeterGroundWaterForService = 0,
+                    CanComputeCubicMeterGroundWaterForProduct = true,
+                    CubicMeterGroundWaterForProduct = 0,
+                    CanComputeCubicMeterGroundWaterForDrink = true,
+                    CubicMeterGroundWaterForDrink = 0,
+                    CanComputeCubicMeterGroundWaterForUse = true,
+                    CubicMeterGroundWaterForUse = 0
+                }
             },
             new object[] {
                 SurveyData.Data2,
-                "test",
+                new CubicMeterGroundWater {
+                    PrivateDoing = false,
+                    AllCount = 0,
+                    PrivateWaterResourceCount = 0,
+                    PrivateGroundWaterInfo = new List<GroundWaterInfo>(),
+                    PublicDoing = false,
+                    PublicWaterResourceCount = 0,
+                    Package = new List<Package>(),
+                    PublicWaterGroundWaterInfo = new List<GroundWaterInfo>(),
+                    CanComputeCubicMeterGroundWaterForAgriculture = true,
+                    CubicMeterGroundWaterForAgriculture = 0,
+                    CanComputeCubicMeterGroundWaterForService = true,
+                    CubicMeterGroundWaterForService = 0,
+                    CanComputeCubicMeterGroundWaterForProduct = true,
+                    CubicMeterGroundWaterForProduct = 0,
+                    CanComputeCubicMeterGroundWaterForDrink = true,
+                    CubicMeterGroundWaterForDrink = 0,
+                    CanComputeCubicMeterGroundWaterForUse = true,
+                    CubicMeterGroundWaterForUse = 0
+                }
             },
             new object[] {
                 SurveyData.Data3,
-                "test",
+                new CubicMeterGroundWater {
+                    PrivateDoing = false,
+                    AllCount = 0,
+                    PrivateWaterResourceCount = 0,
+                    PrivateGroundWaterInfo = new List<GroundWaterInfo>(),
+                    PublicDoing = false,
+                    PublicWaterResourceCount = 0,
+                    Package = new List<Package>(),
+                    PublicWaterGroundWaterInfo = new List<GroundWaterInfo>(),
+                    CanComputeCubicMeterGroundWaterForAgriculture = true,
+                    CubicMeterGroundWaterForAgriculture = 0,
+                    CanComputeCubicMeterGroundWaterForService = true,
+                    CubicMeterGroundWaterForService = 0,
+                    CanComputeCubicMeterGroundWaterForProduct = true,
+                    CubicMeterGroundWaterForProduct = 0,
+                    CanComputeCubicMeterGroundWaterForDrink = true,
+                    CubicMeterGroundWaterForDrink = 0,
+                    CanComputeCubicMeterGroundWaterForUse = true,
+                    CubicMeterGroundWaterForUse = 0
+                }
             },
             new object[] {
                 SurveyData.Data4,
-                "test",
+                new CubicMeterGroundWater {
+                    PrivateDoing = false,
+                    AllCount = 0,
+                    PrivateWaterResourceCount = 0,
+                    PrivateGroundWaterInfo = new List<GroundWaterInfo>(),
+                    PublicDoing = false,
+                    PublicWaterResourceCount = 0,
+                    Package = new List<Package>(),
+                    PublicWaterGroundWaterInfo = new List<GroundWaterInfo>(),
+                    CanComputeCubicMeterGroundWaterForAgriculture = true,
+                    CubicMeterGroundWaterForAgriculture = 0,
+                    CanComputeCubicMeterGroundWaterForService = true,
+                    CubicMeterGroundWaterForService = 0,
+                    CanComputeCubicMeterGroundWaterForProduct = true,
+                    CubicMeterGroundWaterForProduct = 0,
+                    CanComputeCubicMeterGroundWaterForDrink = true,
+                    CubicMeterGroundWaterForDrink = 0,
+                    CanComputeCubicMeterGroundWaterForUse = true,
+                    CubicMeterGroundWaterForUse = 0
+                }
             },
             new object[] {
                 SurveyData.Data5,
-                "test",
+                new CubicMeterGroundWater {
+                    PrivateDoing = false,
+                    AllCount = 0,
+                    PrivateWaterResourceCount = 0,
+                    PrivateGroundWaterInfo = new List<GroundWaterInfo>(),
+                    PublicDoing = false,
+                    PublicWaterResourceCount = 0,
+                    Package = new List<Package> {
+                        new Package(),
+                        new Package(),
+                        new Package(),
+                        new Package {
+                            Name = "4. ขวด",
+                            Size = 1000.0,
+                            Drink = 20,
+                            Agriculture = null,
+                            Factory = 0,
+                            Service = 0
+                        },
+                        new Package(),
+                        new Package(),
+                        new Package(),
+                        new Package(),
+                        new Package(),
+                    },
+                   PublicWaterGroundWaterInfo = new List<GroundWaterInfo>(),
+                    CanComputeCubicMeterGroundWaterForAgriculture = true,
+                    CubicMeterGroundWaterForAgriculture = 0,
+                    CanComputeCubicMeterGroundWaterForService = true,
+                    CubicMeterGroundWaterForService = 0,
+                    CanComputeCubicMeterGroundWaterForProduct = true,
+                    CubicMeterGroundWaterForProduct = 0,
+                    CanComputeCubicMeterGroundWaterForDrink = true,
+                    CubicMeterGroundWaterForDrink = 1000.0*20*12/1000000,
+                    CanComputeCubicMeterGroundWaterForUse = true,
+                    CubicMeterGroundWaterForUse = 1000.0*20*12/1000000
+                }
             },
         };
         public static IEnumerable<object[]> CubicMeterPlumbing = new List<object[]>
