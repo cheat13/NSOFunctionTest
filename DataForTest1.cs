@@ -569,6 +569,29 @@ namespace NSOFunctionTest
                     CubicMeterGroundWaterForUse = 1000.0*20*12/1000000
                 }
             },
+            new object[] {
+                SurveyData.Data6,
+                new CubicMeterGroundWater {
+                    PrivateDoing = false,
+                    AllCount = 0,
+                    PrivateWaterResourceCount = 0,
+                    PrivateGroundWaterInfo = new List<GroundWaterInfo>(),
+                    PublicDoing = false,
+                    PublicWaterResourceCount = 0,
+                    Package = new List<Package>(),
+                    PublicWaterGroundWaterInfo = new List<GroundWaterInfo>(),
+                    CanComputeCubicMeterGroundWaterForAgriculture = true,
+                    CubicMeterGroundWaterForAgriculture = 0,
+                    CanComputeCubicMeterGroundWaterForService = true,
+                    CubicMeterGroundWaterForService = 0,
+                    CanComputeCubicMeterGroundWaterForProduct = true,
+                    CubicMeterGroundWaterForProduct = 0,
+                    CanComputeCubicMeterGroundWaterForDrink = true,
+                    CubicMeterGroundWaterForDrink = 0,
+                    CanComputeCubicMeterGroundWaterForUse = true,
+                    CubicMeterGroundWaterForUse = 0
+                }
+            },
         };
         public static IEnumerable<object[]> CubicMeterPlumbing = new List<object[]>
         {
@@ -857,6 +880,63 @@ namespace NSOFunctionTest
                     CubicMeterPlumbingForDrink = (119.20*12/26)*(40.0/100)
                 },
             },
+            new object[] {
+                SurveyData.Data8,
+                new CubicMeterPlumbing{
+                    DoingMWA = false,
+                    CubicMeterPerMonthMWA = 0,
+                    WaterBillMWA = 0,
+                    TurbidWaterMWA = false,
+                    SaltWaterMWA = false,
+                    SmellMWA = false,
+                    FilmOfOilMWA = false,
+                    FogWaterMWA = false,
+                    HardWaterMWA = false,
+                    AgricultureMWA = 0,
+                    ServiceMWA = 0,
+                    ProductMWA = 0,
+                    DrinkMWA = 0,
+                    PlantMWA = 0,
+                    DoingPWA = false,
+                    CubicMeterPerMonthPWA = 0,
+                    WaterBillPWA = 0,
+                    TurbidWaterPWA = false,
+                    SaltWaterPWA = false,
+                    SmellPWA = false,
+                    FilmOfOilPWA = false,
+                    FogWaterPWA = false,
+                    HardWaterPWA = false,
+                    AgriculturePWA = 0,
+                    ServicePWA = 0,
+                    ProductPWA = 0,
+                    DrinkPWA = 0,
+                    PlantPWA = 0,
+                    DoingOther = false,
+                    CubicMeterPerMonthOther = 0,
+                    WaterBillOther = 0,
+                    TurbidWaterOther = false,
+                    SaltWaterOther = false,
+                    SmellOther = false,
+                    FilmOfOilOther = false,
+                    FogWaterOther = false,
+                    HardWaterOther = false,
+                    AgricultureOther = 0,
+                    ServiceOther = 0,
+                    ProductOther = 0,
+                    DrinkOther = 0,
+                    PlantOther = 0,
+                    MeterRentalFee = 0,
+                    PlumbingPrice = 5.0,
+                    CanComputeCubicMeterPlumbingForAgriculture = true,
+                    CubicMeterPlumbingForAgriculture = 0,
+                    CanComputeCubicMeterPlumbingForService = true,
+                    CubicMeterPlumbingForService = 0,
+                    CanComputeCubicMeterPlumbingForProduct = true,
+                    CubicMeterPlumbingForProduct = 0,
+                    CanComputeCubicMeterPlumbingForDrink = true,
+                    CubicMeterPlumbingForDrink = 0
+                },
+            },
         };
         public static IEnumerable<object[]> CubicMeterSurface = new List<object[]>
         {
@@ -1098,6 +1178,95 @@ namespace NSOFunctionTest
                     CubicMeterSurfaceForProduct = 0,
                     CanComputeCubicMeterSurfaceForDrink = true,
                     CubicMeterSurfaceForDrink = 0
+                },
+            },
+            new object[] {
+                SurveyData.Data6,
+                new CubicMeterSurface {
+                    PoolDoing = false,
+                    PoolCount = 0,
+                    WaterResourceCount = 0,
+                    PoolInfos = new List<PoolInfo>(),
+                    CubicMeterPerMonthIrrigation = 0,
+                    PumpCountRiver = 0,
+                    PumpCountIrrigation = 0,
+                    PumpAutoRiver = 0,
+                    PumpAutoIrrigation = 0,
+                    RainContainers = new List<RainContainer> {
+                        new RainContainer {
+                            Category = null,
+                            Size = null,
+                            Count = null
+                        },
+                        new RainContainer {
+                            Category = "แท้งค์น้ำ โพลิเมอร์/พลาสติก",
+                            Size = "100 - 1,000",
+                            Count = 2
+                        },
+                        new RainContainer {
+                            Category = null,
+                            Size = null,
+                            Count = null
+                        },
+                        new RainContainer {
+                            Category = null,
+                            Size = null,
+                            Count = null
+                        },
+                        new RainContainer {
+                            Category = null,
+                            Size = null,
+                            Count = null
+                        },
+                        new RainContainer {
+                            Category = null,
+                            Size = null,
+                            Count = null
+                        },
+                        new RainContainer {
+                            Category = null,
+                            Size = null,
+                            Count = null
+                        },
+                        new RainContainer {
+                            Category = null,
+                            Size = null,
+                            Count = null
+                        },
+                    },
+                    SaltWaterRiver = false,
+                    SmellRiver = false,
+                    FilmOfOilRiver = false,
+                    FogWaterRiver = false,
+                    SaltWaterIrrigation = false,
+                    SmellIrrigation = false,
+                    FilmOfOilIrrigation = false,
+                    FogWaterIrrigation = false,
+                    AgricultureRiver = 0,
+                    ServiceRiver = 0,
+                    ProductRiver = 0,
+                    DrinkRiver = 0,
+                    PlantRiver = 0,
+                    FarmRiver = 0,
+                    AgricultureIrrigation = 0,
+                    ServiceIrrigation = 0,
+                    ProductIrrigation = 0,
+                    DrinkIrrigation = 0,
+                    PlantIrrigation = 0,
+                    FarmIrrigation = 0,
+                    AgricultureRain = 80,
+                    ServiceRain = 0,
+                    ProductRain = 0,
+                    DrinkRain = 20,
+                    PlantRain = 0,
+                    CanComputeCubicMeterSurfaceForAgriculture = true,
+                    CubicMeterSurfaceForAgriculture = 550/1000.0*2*80.0/100,
+                    CanComputeCubicMeterSurfaceForService = true,
+                    CubicMeterSurfaceForService = 0,
+                    CanComputeCubicMeterSurfaceForProduct = true,
+                    CubicMeterSurfaceForProduct = 0,
+                    CanComputeCubicMeterSurfaceForDrink = true,
+                    CubicMeterSurfaceForDrink = 550/1000.0*2*20.0/100
                 },
             },
         };

@@ -11,6 +11,9 @@ namespace NSOFunctionTest
         public Survey Data3 { get; set; }
         public Survey Data4 { get; set; }
         public Survey Data5 { get; set; }
+        public Survey Data6 { get; set; }
+        public Survey Data7 { get; set; }
+        public Survey Data8 { get; set; }
 
         public SurveyData()
         {
@@ -40,6 +43,18 @@ namespace NSOFunctionTest
                 Unit = data.Unt5,
                 Building = data.Bld5,
                 Communities = new List<CommunitySample> { data.Com5_1, data.Com5_2 }
+            };
+            Data6 = new Survey
+            {
+                Unit = data.Unt6,
+            };
+            Data7 = new Survey
+            {
+                Unit = data.Unt7,
+            };
+            Data8 = new Survey
+            {
+                Communities = new List<CommunitySample> { data.Com8_1 }
             };
         }
     }

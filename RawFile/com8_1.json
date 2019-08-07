@@ -1,0 +1,45 @@
+{
+    "_id": "com1v156455251807021501141",
+    "ea": "22101011099033",
+    "management": {
+        "vil": "_",
+        "vil_name": "เทศบาลนครระยอง",
+        "hasPublicWater": false,
+        "publicWaterCount": 0,
+        "pwa": true,
+        "mwa": false,
+        "otherPlumbing": false,
+        "hasWaterService": null,
+        "waterServiceCount": null,
+        "hasWaterTreatment": false,
+        "hasDisaster": false,
+        "disasters": {
+            "tsunami": false,
+            "landSlide": false,
+            "earthquake": false,
+            "cyclone": false,
+            "forestFire": false,
+            "drought": false,
+            "cold": false,
+            "epidemic": false,
+            "pest": false,
+            "epizootics": false
+        },
+        "hasDisasterWarning": false,
+        "disasterWarningMethods": {
+            "governmentProcess": false,
+            "communityPlan": false,
+            "consultingService": false,
+            "hasOther": false,
+            "other": null
+        },
+        "details": [],
+        "waterServices": []
+    },
+    "communityProject": {
+        "doing": false,
+        "projectCount": 0,
+        "details": []
+    },
+    "status": "done-all"
+}
